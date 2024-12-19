@@ -6,7 +6,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Philosophy](#philosophy)
 - [Contributing to SynthData](#contributing-to-synthdata)
 ## Installation
 
