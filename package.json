@@ -1,0 +1,34 @@
+{
+  "name": "typescriptify",
+  "version": "1.0.0",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak5512/TypeScriptify.git"
+  },
+  "keywords": [
+    "typescript",
+    "json",
+    "converter",
+    "cli",
+    "typescript-interfaces"
+  ],
+  "author": "Deepak Bhatter",
+  "license": "ISC",
+  "description": "A tool to generate TypeScript interfaces/types from JSON data with a CLI option for quick usage.",
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "commander": "^12.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "bin": {
+    "typescriptify": "./dist/cli.js"
+  }
+}
